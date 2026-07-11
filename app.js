@@ -12,5 +12,5 @@ app.get('/ping', (req,res)=> {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}/ping`);
+    console.log(`Server is running on http://localhost:${port}`);
 });
